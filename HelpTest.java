@@ -46,10 +46,10 @@ public class HelpTest {
 		//Ecrire le help
 			java.awt.Font font = new Font("Verdana", Font.BOLD, 38);
 			TrueTypeFont ttf = new TrueTypeFont(font, true);
-			ttf.drawString(150.0f, 200.0f, message[0], Color.red);
-			ttf.drawString(55.0f, 300.0f, message[1], Color.green);
+			ttf.drawString(150.0f, 200.0f, message[0], Color.blue);
+			ttf.drawString(55.0f, 300.0f, message[1], Color.blue);
 			ttf.drawString(50.0f, 400.0f, message[2], Color.blue);
-			ttf.drawString(200.0f, 500.0f, message[3], Color.white);
+			ttf.drawString(200.0f, 500.0f, message[3], Color.blue);
 	}
 	
 	//Si on clique sur le boutton back, on revient au menu
